@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show More</title>
+</head>
+<body>
+    Welcome to the "Show More Text Example".
+    <a href="#" id="more" onclick="showText()">Read more....</a>
+
+    <span id="text" style="display: none">Wellcome to...</span>
+
+    
+    <script type="text/javascript">
+        function  showText() {
+            document.getElementById('text').style.display = 'inline';
+            document.getElementById('more').style.display = 'none';
+        }
+    </script>
+
+
+</body>
+</html>
