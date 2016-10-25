@@ -8,3 +8,4 @@ function  maxElement(arr) {
 
 
 console.log(maxElement([3, -2, 10, 4]));
+
